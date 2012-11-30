@@ -1,0 +1,18 @@
+.OKBtnArr {
+    border: 1px solid hsl(0, 0%, 30%);
+    margin: 0 1px;
+    border-radius: 6px;
+    display: block;
+    width: 60%;
+    height: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #5CA420;
+    text-decoration: none;
+    text-shadow: /* top shadow */ 0 -1px 0 hsla(0, 0%, 0%, 0.4), /* bottom highlight */ 0 1px 0 hsla(0, 0%, 100%, 0.2);
+    box-shadow: /* top outer shadow */ 0 -1px 0 0 hsla(0, 0%, 0%, 0.3), /* top inner highlight */ inset 0 1px 0 0 hsla(0, 0%, 100%, 0.6), /* bottom inner shadow */ inset 0 -1px 0 0 hsla(0, 0%, 0%, 0.4), /* botom outer highlight */ 0 1px 0 0 hsla(0, 0%, 100%, 0.6);
+    background-image: -webkit-linear-gradient(top, /* highlight start */ hsla(0, 0%, 100%, 0.5), /* highlight end */ hsla(0, 0%, 100%, 0.15) 49%, /* shadow start */ hsla(0, 0%, 0%, 0) 50%, /* shadow end */ hsla(0, 0%, 0%, 0.2));
+}
